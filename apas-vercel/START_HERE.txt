@@ -1,0 +1,35 @@
+🚀 تطبيقك جاهز! اتبع الخطوات البسيطة:
+
+═══════════════════════════════════════════════════
+
+1️⃣ اذهب إلى: c:\Users\عبدالهادي\Desktop\apas-vercel
+
+2️⃣ افتح PowerShell وشغّل:
+
+cd c:\Users\عبدالهادي\Desktop\apas-vercel
+
+git init
+git add .
+git commit -m "APAS for Vercel"
+
+3️⃣ أنشئ repository جديد على GitHub:
+   - اسمه: apas-vercel
+   - ثم نسخ الأوامر وألصقها هنا
+
+4️⃣ اذهب لـ Vercel.com:
+   - New Project
+   - اختر repository اللي ما أنشأته
+   - Settings → Environment Variables
+   - أضف: ANTHROPIC_API_KEY = (API key جديد)
+
+5️⃣ Deploy! ✅
+
+═══════════════════════════════════════════════════
+
+⚠️ مهم:
+- API Key القديم معروض - غيّره!
+- الـ API Key الجديد يحط في Vercel بس، ما في GitHub
+
+═══════════════════════════════════════════════════
+
+للمزيد من التفاصيل: اقرأ DEPLOYMENT_GUIDE_AR.md
